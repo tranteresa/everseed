@@ -1,0 +1,57 @@
+html {
+	height: 100%; 
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Poppins-Medium';
+	color: white;             
+	min-height: 100%;         
+}
+
+body.landing {
+	background-image: linear-gradient(-134deg, #39ADD1 0%, #E5F4D3 100%);
+}
+
+.topnav {
+	padding: 0.5rem;
+	background-color: rgba(255,255,255,0.10);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+ 
+.navbar .logo {
+	position: relative; /* positioning will be explained in a resource */
+	left: 2rem;
+}
+.hero-content {
+	position: relative; 
+	min-height: 600px;
+	background-image: url(../assets/background/hero-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.hero-content .hero-title {
+	position: absolute;             
+	top: 40%;                       
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;                    
+	text-align: center;             /* aligns text in the horizontal center of the element */
+	font-size: 4rem;                /* specifies the size of the font in root em units */
+	font-weight: 300;               /* makes the font thinner or lighter weight */
+	text-transform: uppercase;      /* transforms the text to be all uppercase lettering */
+	letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
+	text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
+}

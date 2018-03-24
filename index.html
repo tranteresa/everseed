@@ -2,27 +2,27 @@
 <html>
 <head>
     <title>Everseed</title>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Poppins" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="styles/landing.css">
 
 </head>
 <body class="landing">
-    <header class="topnav container">
-        <nav class="navbar column third">
-            <ul>
-                <li><a href="index.html" class="logo column third"><img src="assets/logo/logo-white.png" alt="everseed logo"></a></li>
-                <li>Features</li>
-                <li>Our Story</li>
-                <li>Climate Change 101</li>
-                <li>Login</li>
-                <li><button class="white-clear" type="button column third">Get Started</button></li>
-            </ul>
-        </nav>
-    </header>
 
+    <nav class="hover-underline-menu" data-menu-underline-from-center>
+        <ul class="menu align-center">
+            <li><a class="topbar-responsive-logo" href="index.html"><img src="assets/logo/logo-white.png" alt="everseed logo"></a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Climate Change 101</a></li>
+            <li><a href="#">Login</a></li>
+            <li><button type="button" class="button hollow topbar-responsive-button">Get Started</button></li>
+        </ul>
+    </nav>
     <section class="hero container"> 
         <h1 class="hero-title-one">Zero Carbon.</h1>
         <h2 class="hero-title-two">Reimagined.</h2>
@@ -34,25 +34,36 @@
     <section class="steps-content container">
         <div class="section-title">Start Your Journey to Zero Waste</div>
 
-        <div class="steps column fourth">
+        <div class="steps column fourth right">
             <h6 class="step-number">Step 1 - Awareness</h6>
             <h4 class="step-title">What's your Carbon Score?</h4>
             <p class="step-description">A carbon score is a unique calculation of carbon emissions based on your daily activities. With the rise of climate change, humans are facing challenges in health, energy, agriculture, and water supply.<br><br>Our goal is to live a low-carbon sustainable lifestyle to ensure a healthy planet.</p>  
             <button class="green-clear" type="button">Take the Quiz Now!</button>
         </div>
-        <div class="steps column fourth">
+        <div class="steps column fourth left">
             <h6 class="step-number">Step 2 - Education</h6>
             <h4 class="step-title">Learn new carbon reducing habits</h4>
             <p class="step-description">Want to learn more ways to reduce your carbon impact? With Everseed, you can search an expansive library of articles, videos, projects, and recipes.</p>
             <button class="white-clear" type="button">Get Started</button>  
-        </div>
-        <div class="steps column fourth">
+            <div class="education column third">
+                <div class="box a">GoGreen Library<p>Explore educational videos and articles about green house gases, climate change, carbon footprint, and so much more.</p></div>
+                <div class="box b">Seriously-Sustainable<p>Not sure where to start? Our curated series is a great place for beginnersand kids to learn all about climate change.</p></div>
+                <div class="box c">Food Mantra<p>Low-carbon can be deliciousand substainable! Try seasonal and regionally grown food to reduce your CO2 impact.</p></div>
+                <div class="box d">Voice Your Vote<p>Earth is our shared resource. Voting for policies and laws that hold corporations accountable can help reduce climate change.</p></div>
+                <div class="box e">DIY Corner<p>Do It Yourself “Go Green” projects are a fun way to upcycle items and  save money!</p></div>
+                <div class="box f">The Real Nature Friendly<p>Team up with eco-friendly brandsverified by our experts to ensure you’re really choosing brands with a low carbon impact.</p></div>
+                <div class="box d">Pin It<p>Found something interesting? Bookmark this gem and save it  for a later time. </p></div>
+                <div class="box e">Eco-Tips<p>These weekly tips are an easily way to incorporate new habits into your daily routine.</p></div>
+                <div class="box f">Share is Caring<p>Don’t keep these secrets all to yourself! Share and help educate friends and family too!</p></div>
+                </div>
+            </div>
+        <div class="steps column fourth right">
             <h6 class="step-number">Step 3 - Take Action</h6>
             <h4 class="step-title">Build custom goals  &amp; track your activities</h4>
             <p class="step-description">Starting new habits can be hard! We believe that incorporating these activities into your daily life can help you adopt and maintain these habits. Build custom goals that fit your interests and track how much carbon you're reducing!</p>  
             <button class="green-clear" type="button">Learn More</button>
         </div>
-        <div class="steps column fourth">
+        <div class="steps column fourth left">
             <h6 class="step-number">Step 4 - Connect</h6>
             <h4 class="step-title">Grow your community</h4>
             <p class="step-description">Meet other waste free warriors just like you! Challenge and track your friends activities to keep each other CO2 accountable!</p>
@@ -64,7 +75,6 @@
         <div class="section-title">Plant the seeds for a cleaner tomorrow</div>
         <button class="blue-solid" type="button">Get Started for Free!</button>
     </section>
-
     <footer class="bottomnav container">
         <a href="index.html" class="logo column third"><img src="assests/logo/logo-white.png" alt="everseed logo"></a>
         <nav class="navbar column third">
@@ -86,5 +96,6 @@
             </ul>
         </div>  
     </footer>
+
 </body>
 </html>

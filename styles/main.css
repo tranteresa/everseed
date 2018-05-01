@@ -1,22 +1,48 @@
 html {
-    height: 100%; 
-    font-size: 100%;
+	background-color: #F8F8F8;
 }
 
-body {
-	background-color: #B8B8B8;
-    font-family: 'Poppins-Medium';
-    color: white;             
-    min-height: 100%;         
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    max-width: 960px;
+    color: white;
+} 
+
+/* MENU */
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.item {
+	display: inline-block;
 }
 
-li {
-    display: inline;
+/* Hero */
+.hero {
+	text-align: center;
+}
+
+/* Title */
+.cta.section {
+	text-align: center;eeeewx
+}
+
+.title {
+	text-align: center;
+}
+
+/* Footer */
+ul i + i {
+	padding left: 2rem;
+}
+
+.copyright {
+	text-align: center;
 }

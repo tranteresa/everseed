@@ -34,17 +34,13 @@ Read more about this project [here](http://teresatran.co/cs-everseed.html).
 ![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/logo.png)
 
 
-## Screenshots
+## Mobile Screenshots
 
 ![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature2-mobile.png)
 
-![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature_02.png)
-
-![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature_03.png)
-
 
 ## Demo
-Checkout Everseed's [Product Showcase]()
+Checkout Everseed's [Product Showcase](http://teresatran.co/everseed/)
 
 ## Authors
 

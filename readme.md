@@ -35,7 +35,6 @@ Read more about this project [here](http://teresatran.co/cs-everseed.html).
 
 
 ## Mobile Screenshots
-
 ![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature2-mobile.png)
 
 

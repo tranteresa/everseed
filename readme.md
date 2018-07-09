@@ -34,17 +34,12 @@ Read more about this project [here](http://teresatran.co/cs-everseed.html).
 ![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/logo.png)
 
 
-## Screenshots
-
+## Mobile Screenshots
 ![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature2-mobile.png)
-
-![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature_02.png)
-
-![logo](https://github.com/tranteresa/everseed/blob/master/readme_assets/feature_03.png)
 
 
 ## Demo
-Checkout Everseed's [Product Showcase]()
+Checkout Everseed's [Product Showcase](http://teresatran.co/everseed/)
 
 ## Authors
 
@@ -54,7 +49,7 @@ Checkout Everseed's [Product Showcase]()
 * [Bloc.io](https://www.bloc.io/?utm_campaign=search_bloc_brand&utm_adgroup=blockio---desktop-exact&utm_content=desktop&utm_term=bloc-io_exact&utm_source=adwords&utm_medium=cpc&gclid=EAIaIQobChMIorS7sISt2wIVV7jACh1BcA_KEAAYASAAEgIPFPD_BwE)
 * [w3schools](https://www.w3schools.com/)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
- 
+* [Business Icons by Pudge](https://www.sketchappsources.com/free-source/3106-business-icons-set-sketch-freebie-resource.html)
  
 ## Copyright
 © 2018 TERESA TRAN -  ALL RIGHTS RESERVED

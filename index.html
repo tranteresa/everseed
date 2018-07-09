@@ -19,6 +19,7 @@
 
 <!-- Favicon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- 
     section
@@ -31,14 +32,14 @@
 <body>
 	<section class="topfold">
 <!-- Menu -->
-	    <nav class="topnav section">
-	    	<section class="transbox">
-		    	<a href="index.html" class="nav_logo"><img src="assets/logo/everseed-logo.svg" alt="everseed logo">
-		        <a href="#" class="links">Features</a>
-		        <a href="#" class="links">Our Story</a>
-		        <a href="#" class="links">Climate Change 101</a>
-		        <a href="#"><a class="button" href="#">Get Started</a>
-	        </section>
+	    <nav class="topnav section" id="myTopNav">
+	    	<a href="index.html"></a><img src="assets/logo/everseed-logo.png" alt="everseed logo" id="nav_logo"></a>
+	        <a href="#" class="links">Features</a>
+	        <a href="#" class="links">Our Story</a>
+	        <a href="#" class="links">Climate Change 101</a>
+	        <a href="#" class="button" id="nav_button">Get Started</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
 	    </nav>
 	<!-- Hero -->
 	    <section class="hero section">
@@ -46,30 +47,26 @@
 	            <h1 class="hero-title">Zero Carbon. Reimagined.</h1>
 	            <p>Introducing a digital solution for a greener planet. Learn new habits and set personalized goals to reduce your carbon footprint.</p>
 	        </div>
-        	<br>
-            <button class="button-primary" href="#">Get Started</button>
-            <div class="divider"></div>
-            <button class="button-secondary" href="#"><i class="fas fa-play-circle fa-lg"></i> Watch Video</button>
-            <!-- 
-            <i class="fas fa-play-circle fa-lg"></i>
-			<i class="fas fa-play"></i>
-			<i class="fas fa-play fa-lg"></i>
-            -->
+            <div class="container">
+                <button class="button-primary" href="#"><i class="fab fa-apple"></i>  Download App</button>
+                <div class="divider"></div>
+                <button class="button-secondary" href="#"><i class="fas fa-play-circle"></i>  Watch Video</button>
+            </div>
 	    </section>
 
 	</section>
 <!-- Features -->
 
     <section class="feature_01 section">
-    	<h3 class="title">Start Your Journey to Zero Waste</h3> 
+    	<!--<h2 class="title">Start Your Journey to Zero Waste</h2> -->
         <div class="container">
             <div class="row feature one">
                 <div class="one-half column">
                 	<img src="assets/features/feature01.png" alt="awareness">
                 </div>
                 <div class="one-half column step">
-                    <h7 class="step-number"><span style="color: #16756D;font-weight: 400; text-transform: uppercase">Step 1 - Awareness</span></h7>
-                    <h5 class="step-title">What's your Carbon Score?</h5>
+                    <h6 class="step-number"><span style="color: #16756D">Awareness</span></h6>
+                    <h2 class="step-title">What's your <div class="divider-2"></div>Carbon Score?</h2>
                     <p class="step-description">A carbon score is a unique calculation of carbon emissions based on your daily activities. With the rise of climate change, humans are facing challenges in health, energy, agriculture, and water supply.<br><br>Our goal is to live a low-carbon sustainable lifestyle to ensure a healthy planet.</p>
                     <a class="button-two" href="#">Take The Quiz Now</a>
                 </div>
@@ -81,14 +78,17 @@
     	<div class="container">
             <div class="row feature two">
                 <div class="one-half column step">
-                    <h7 class="step-number"><span style="font-weight: 400; text-transform: uppercase">Step 2 - Education</span></h7>
-                    <h5 class="step-title">Learn carbon reducing habits</h5>
+                    <h6 class="step-number">Education</h6>
+                    <h2 class="step-title">Learn low <div class="divider-2"></div>carbon habits</h2>
                     <p class="step-description">Want to learn more ways to reduce your carbon impact? With Everseed, you can search an expansive library of articles, videos, projects, and recipes.</p>
                     <a class="button" href="#">Get Started</a>
                 </div>
                 <div class="one-half column">
                 	<img src="assets/features/feature02.png" alt="education">
                 </div>
+            </div>
+            <div class="row grid">
+                <img src="assets/features/feature2-gridshadow.png">
             </div>
         </div>
     </section>
@@ -100,8 +100,9 @@
                 	<img src="assets/features/feature03.png" alt="action">
                 </div>
                 <div class="one-half column step">
-                    <h7 class="step-number"><span style="color: #16756D;font-weight: 400; text-transform: uppercase">Step 3 - Take Action</span></h7>
-                    <h5 class="step-title">Build custom goals &amp; track activities</h5>
+                    <div class="space-10"></div>
+                    <h6 class="step-number"><span style="color: #16756D">Actions</span></h6>
+                    <h2 class="step-title">Build custom goals &amp; <div class="break"></div>track daily activities</h2>
                     <p class="step-description">Starting new habits can be hard! We believe that incorporating these activities into your daily life can help you adopt and maintain these habits. Build custom goals that fit your interests and track how much carbon you're reducing!</p>  
                     <a class="button-two" href="#">Learn More</a>
                 </div>
@@ -113,68 +114,69 @@
     	<div class="container">
             <div class="row feature four">
                 <div class="one-half column step">
-                    <h7 class="step-number"><span style="font-weight: 400; text-transform: uppercase">Step 4 - Connect</span></h7>
-                    <h5 class="step-title">Grow your community</h5>
+                    <div class="space-10"></div>
+                    <h6 class="step-number">Connect</h6>
+                    <h2 class="step-title">Grow your community</h2>
                     <p class="step-description">Meet other waste free warriors just like you! Challenge and track your friends activities to keep each other CO2 accountable!</p>
                     <a class="button" href="#">Learn More</a>
                 </div>
                 <div class="one-half column">
-                	<img src="assets/features/feature04.png" alt="connect">
+                	<img src="assets/features/feature04-hand.png" alt="connect">
                 </div>
             </div>
         </div>
     </section>
 
-<!-- Call to Action -->
-    <section class="cta section">
-        <div class="container">
-            <h3 class="title">Plant the seeds for a cleaner tomorrow</h3>
-            <br> 
-            <button class="button-primary" href="#">Get Started for Free!</button>
+
+
+<footer class="bottomnav section">
+    <section class="first container">
+        <section class="row">
+            <h3 class="title">A healthy planet starts <div class="break"></div>with YOU.</h3>
+        </section>
+        <section class="row">
+            <p>Plant the seeds for a cleaner tomorrow with Everseed - A digital solution designed to reduce your carbon impact.</p>
+        </section>
+        <section class="row">
+            <button class="button-secondary" href="#"><i class="fab fa-apple"></i>  Download App</button>
+        </section>
+        
+    </section>
+    <section class="second container">
+        <div class="four columns">
+            <ul class="links">
+                <a href="">FAQ</a>
+                <a href="">Contact</a>
+                <a href="">Community</a>
+            </ul>
+        </div>
+        <div class="four columns">
+            <ul class="links">
+                <a href="">Privacy</a>
+                <a href="">Our Story</a>
+                <a href="">Terms</a>
+            </ul>
         </div>
     </section>
 
-</body>
-
-<footer class="bottomnav section">
-    <div class="container">
-        <a href="index.html" class="three columns logo"><img src="assets/logo/everseed-logo.svg" alt="everseed logo"></a>
-
-        <div class="two columns bottomnav">
-            <ul>
-                <li>FAQ</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-
-        <div class="two columns bottomnav">
-            <ul>
-                <li>Community</li>
-                <li>Privacy Policy</li>
-            </ul>
-        </div>
-
-        <div class="two columns bottomnav">
-            <ul>
-                <li>Our Story</li>
-                <li>Terms</li>
-            </ul>
-        </div>
-
-        <div class="three columns social">
-            <ul>
-                <i class="fab fa-facebook-f fa-lg" href="#"></i>
-                <i class="fab fa-twitter fa-lg" href="#"></i>
-                <i class="fab fa-instagram fa-lg" href="#"></i>
-            </ul>
-        </div>  
-    </div>
-    <hr>
-    <div class="container">
-        <div class="copyright">© 2018 Everseed All Rights Reserved.</div>
-    </div>
+    <section class="third container">
+        <section class="row">
+            <section class="one-half column">
+                <div class="copyright">Copyright © 2018 Everseed All Rights Reserved.</div>
+            </section>
+            <section class="one-half column">
+                <ul class="social">
+                    <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-lg" href=""></i></a>
+                    <a href=""><i class="fab fa-facebook-f fa-lg" href=""></i></a>
+                </ul>
+            </section> 
+        </section>
+    </section>
+    
 </footer>
-
+<script src="scripts/navbar.js"></script>
+</body>
 </html>
 
 

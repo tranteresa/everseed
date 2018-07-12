@@ -92,12 +92,13 @@ hr {
     border-bottom: 3px solid transparent;
 }
 
-.links:hover {
-    border-bottom: 3px solid #FFF;
-    color: #FFF;
+#myTopNav .links:hover {
+
+    /* border-bottom: 3px solid #FFF; */
+    color: #0574A3;
 }
 
-.links.active {
+#myTopNav .links.active {
     border-bottom: 3px solid #FFF;
 }
 
